@@ -1,3 +1,4 @@
+import './infosHeader.css'
 function infosHeader(){
     return(
         <div>
