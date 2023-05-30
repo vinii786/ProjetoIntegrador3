@@ -16,7 +16,6 @@ function Header() {
             <div className='carrinho'>
                 <img src={ carrinho } style={{ height: 35 }}/>
                 <p>meu carrinho</p>
-                <p>oie</p>
             </div>
         </div>
     )
