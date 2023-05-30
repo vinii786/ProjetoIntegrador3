@@ -15,13 +15,15 @@
 }
 .container .titulo{
     font-size: 10px;
-    padding-left: 4%;
+    padding-left: 3.1rem;
+    padding-bottom: 2rem;
 }
 .container .carousel{
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
   text-align: center;
+  padding-bottom: 30px;
 }
 .container .carousel::-webkit-scrollbar{
     display: none;
