@@ -1,0 +1,41 @@
+
+.containerBar{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    max-width: max-content;
+    padding: 50px;
+    border-radius: 1rem;
+}
+.containerBar .titles{
+    margin: none;
+    display: flex;
+    text-align: center;
+    gap: 35rem;
+}
+.containerBar .titles h1{
+    font-size: 1.5rem;
+}
+.containerBar .titles p{
+    font-size: 13px;
+    color: #00115C;
+}
+
+.prods img{
+    height: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left:20px ;
+}
+.prod_cards{
+    padding-top: 3rem;
+    display: flex;
+    gap: 30px;
+}
+.prod_cards .prods {
+    max-width: max-content;
+    background-color: white;
+    border-radius: 1rem;
+
+}

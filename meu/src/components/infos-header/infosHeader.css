@@ -1,0 +1,21 @@
+.infosHeader {
+    display: flex;
+    gap: 4rem;
+    padding-bottom: 2rem;
+}
+.infosHeader .time{
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+.infosHeader .time img{
+    height: 2rem;
+}
+.time {
+    margin: 0;
+}
+.time p{
+    margin: 0;
+    padding-bottom: 0.1rem;
+    font-size: small;
+    display: flex;
+}
