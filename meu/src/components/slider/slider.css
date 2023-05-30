@@ -1,0 +1,56 @@
+
+.container{
+  max-width: 75vw;
+}
+.seta-carrosel{
+    height: 35px;
+    margin: 0;
+    transform: rotate(180deg);
+    padding-bottom: 20px;
+}
+.seta-carrosel2{
+    height: 35px;
+    margin: 0;
+    padding-top: 20px;
+}
+.container .titulo{
+    font-size: 10px;
+    padding-left: 4%;
+}
+.container .carousel{
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+.container .carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.container .carousel .item{
+  background-color: white;
+  margin: 10px;
+  width: 280px; 
+}
+.container .carousel .item .img img{
+  width: 67px;
+  height: 67px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.container .carousel .item .sub-title span{
+    display: block;
+    cursor: pointer;
+}
+.container .buttons{
+    width: 100%;
+    text-align: center;
+
+}
+.container .buttons button{
+
+    background: none;
+    background-color: transparent;
+    border: none;
+}
