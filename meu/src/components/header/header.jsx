@@ -1,25 +1,21 @@
-import '../header/header.css'
-import logo from '../header/img/logo-otinho-1.png'
-import lupa from '../header/img/find.png'
-import carrinho from '../header/img/carrinho-carrinho.png'
+import '../header/header.css';
+import SearchBar from '../searchBar/searchBar';
+import CartButton from '../cartButton/CartButton';
+import Logo from "../header/img/logo-otinho-1.png";
+
 
 function Header() {
-    return(
-        <div className='header'>
-            <div className='logo'>
-                <img src={ logo }/>
-            </div>
-            <div className="search-bar">
-                <input placeholder="Título"/>
-                <img src={ lupa } style={{ height: 25, display: "absolute" }}/>
-            </div>
-            <div className='carrinho'>
-                <img src={ carrinho } style={{ height: 35 }}/>
-                <p>meu carrinho</p>
-            </div>
+    return (
+      <header className='header'>
+        <div className='container'>
+          <div>
+            <img className="logo" style={{maxWidth: '200px'}}  src={Logo} alt="logo" />
+          </div>
+          <SearchBar />
+          <CartButton />
         </div>
-    )
-
+      </header>
+    );
 }
 
 export default Header;

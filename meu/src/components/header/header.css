@@ -1,36 +1,13 @@
+.header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 
-.header{
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 3rem;
-}
-.header .logo img{
-    height: 70px;
-    cursor: pointer;
-}
-.search-bar{
-    display: flex;
-}
-.search-bar img{
-    cursor: pointer;
-}
-.search-bar input{
-    width: 100%;
-    padding: 0 1.5rem;
-    height: 2rem;
-    width: 25rem;
-    border-radius: 0.30rem;
-    border: 1px solid #ffffff;
-    background: #e7e9ee;
-    font-weight: 400;
-    font-size: 1rem;
-    outline: none;
-}
-.carrinho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.carrinho img{
-    padding-right: 1rem;
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }

@@ -1,47 +1,37 @@
 import './slider.css'
 import { useEffect, useState, useRef } from 'react'
 
-function Slider (){
+function Slider() {
 
   const [data, setData] = useState([]);
   const carousel = useRef(null);
 
-  useEffect (() => {
+  useEffect(() => {
     fetch('http://localhost:3000/static/med.json').then((Response) => Response.json())
-    .then(setData);
+      .then(setData);
   }, [])
 
-  const handleLeftClick = (e) =>{
-    e.preventDefault();
-    carousel.current.scrollLeft -= carousel.current.offsetWidth;
-  }
-  const handleRightClick = (e) =>{
-    e.preventDefault();
-    carousel.current.scrollLeft += carousel.current.offsetWidth;
-  }
-
-
-  return(
+  return (
     <div className='container'>
       <div className="titulo">
         <h1>Categorias</h1>
       </div>
       <div className="carousel" ref={carousel}>
         {data.map((item) => {
-          const {id, name, image} = item;
-          return(
-            <div className="item" key= {id}>
+          const { id, name, image } = item;
+          return (
+            <div className="item" key={id}>
               <div className="img">
-                <img src={ image }/>
+                <img src={image} />
               </div>
               <div className='sub-title'>
-                <span>{ name }</span>
+                <span>{name}</span>
               </div>
             </div>
           );
         })}
       </div>
-      
+
     </div>
   )
 
