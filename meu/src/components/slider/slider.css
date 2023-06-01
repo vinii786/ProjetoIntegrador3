@@ -2,19 +2,9 @@
 .container{
   max-width: 75vw;
 }
-.seta-carrosel{
-    height: 35px;
-    margin: 0;
-    transform: rotate(180deg);
-    padding-bottom: 20px;
-}
-.seta-carrosel2{
-    height: 35px;
-    margin: 0;
-    padding-top: 20px;
-}
 .container .titulo{
     font-size: 10px;
+    padding-top: 2rem;
     padding-left: 3.1rem;
     padding-bottom: 2rem;
 }
@@ -30,7 +20,6 @@
 }
 
 .container .carousel .item{
-  background-color: white;
   margin: 10px;
   width: 280px; 
 }

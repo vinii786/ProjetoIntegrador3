@@ -1,41 +1,65 @@
-
-.containerBar{
+.containerBar {
     align-items: center;
     text-align: center;
-    background-color: rgb(233, 233, 233);
+    background-color: white;
     max-width: max-content;
     padding: 50px;
     border-radius: 1rem;
 }
-.containerBar .titles{
+
+.containerBar .titles {
     margin: none;
     display: flex;
     text-align: center;
     gap: 35rem;
 }
-.containerBar .titles h1{
+
+.containerBar .titles h1 {
     font-size: 1.5rem;
 }
-.containerBar .titles p{
+
+.containerBar .titles p {
     font-size: 13px;
     color: #00115C;
 }
 
-.prods img{
+.oie {
+    display: flex;
+    flex-direction: row;
+}
+
+.prods {
+    width: 40vh;
+}
+
+.teste {
+    display: flex;
+    gap: 5vh;
+}
+.prods p{
+    font-size: 15px;
+}
+.prods img {
     height: 200px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 20px;
-    padding-left:20px ;
+    padding-left: 20px;
 }
-.prod_cards{
+
+.prod_cards {
+    background-color: white;
     padding-top: 3rem;
-    display: flex;
     gap: 30px;
+    
 }
+.prod_cards h1{
+    font-size: 15px;
+}
+
 .prod_cards .prods {
     max-width: max-content;
-    background-color: white;
+    background-color: #e7e7e7;
     border-radius: 1rem;
 
 }
