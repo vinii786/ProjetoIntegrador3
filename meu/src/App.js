@@ -8,12 +8,10 @@ import ContainerBar from './components/container-bar/containerBar';
 function App() {
   return (
     <div className="App">
-      
       <Header />
       <InfosHeader />
       <Slider />
       <ContainerBar />
-
     </div>
   );
 }

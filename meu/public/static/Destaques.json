@@ -2,16 +2,18 @@
     {
         "name": "Colflex bio colageno ",
         "image": "https://imageup.me/images/16dbf180-c14d-46d3-891a-dedb8cc8b125.png",
-        "infos":"oie"
+        "price": "30R$"
     },
     {
         "name": "Paracetamol",
         "image": "https://drogariaemcasa.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/p/a/paracetamolgeolabdrogariaemcasa.png",
-        "infos":"oie"
+        "infos":"oie",
+        "price": "23R$"
     },
     {
         "name": "Dipirona",
         "image": "https://uploads.consultaremedios.com.br/product_variation_images/full/87d13a49ff453b78b0938b1fcfc781836f06b996.png?1615486482",
-        "infos":"oie"
+        "infos":"oie",
+        "price": "20R$"
     }
 ]
