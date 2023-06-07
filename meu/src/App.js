@@ -2,7 +2,8 @@ import './App.css';
 import Slider from './components/slider/slider';
 import Header from './components/header/header';
 import InfosHeader from './components/infos-header/infosHeader';
-import ContainerBar from './components/container-bar/containerBar';
+import ContainerBar from './components/destaques/destaques';
+import Medicamentos from './components/medicamentos/medicamentos';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <InfosHeader />
       <Slider />
       <ContainerBar />
+      <Medicamentos />
     </div>
   );
 }

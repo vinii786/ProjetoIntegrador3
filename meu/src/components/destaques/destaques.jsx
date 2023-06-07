@@ -19,7 +19,7 @@ function ContainerBar() {
             </div>
             <div className="teste">
                 {data.map((item) => {
-                    const { name, infos, image, price } = item;
+                    const { name, image, price } = item;
                     return (
                         <div className="prod_cards">
                             <div className="prods">

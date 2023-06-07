@@ -10,7 +10,7 @@ function InfosHeader() {
   var res = <div className="time"></div>;
 
   if (Hora > 0 && Hora <= 7) {
-    var safada = 'fechado agora'
+    var time = 'fechado agora'
     res = (
       <div className="time" style={{ color: 'red' }}>
         <style>{`
@@ -21,7 +21,7 @@ function InfosHeader() {
       </div>
     );
   }else {
-    var safada = 'aberto agora'
+    var time = 'aberto agora'
     res = (
       <div className="time" style={{ color: 'red' }}>
         <style>{`
@@ -40,7 +40,7 @@ function InfosHeader() {
 
       <div className="time">
         <img src={Relogio} alt="Relógio" />
-        <p>07:00 à 00:00 <br /> {safada}</p>
+        <p>07:00 à 00:00 <br />  {time}</p>
       </div>
       <div className="time">
         <a href="https://wa.me/553498162029?text=" target="_blank" rel="noopener noreferrer">
