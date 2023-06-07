@@ -1,29 +1,62 @@
-import '../infos-header/infosHeader.css'
-import Relogio from '../infos-header/img/relogio.png'
-import WhatsApp from '../infos-header/img/whatsapp2.png'
-import Local from '../infos-header/img/local.png'
+import React from 'react';
+import '../infos-header/infosHeader.css';
+import Relogio from '../infos-header/img/relogio.png';
+import WhatsApp from '../infos-header/img/whatsapp2.png';
+import Local from '../infos-header/img/local.png';
 
-function infosHeader(){
-    return(
-        <div className="infosHeader">
-            <div className="time">
-                <img src={ Relogio }/>
-                <p>07:00 à 00:00 <br /> aberto agora</p>
+function InfosHeader() {
+  var data = new Date();
+  var Hora = data.getHours()
+  var res = <div className="time"></div>;
 
-            </div>
+  if (Hora > 0 && Hora <= 7) {
+    var safada = 'fechado agora'
+    res = (
+      <div className="time" style={{ color: 'red' }}>
+        <style>{`
+          .time {
+            color: red;
+          }
+        `}</style>
+      </div>
+    );
+  }else {
+    var safada = 'aberto agora'
+    res = (
+      <div className="time" style={{ color: 'red' }}>
+        <style>{`
+          .time {
+            color: green;
+          }
+        `}</style>
+      </div>
+    );
+  }
+  
 
-            <div className="time">
-                <img src={ WhatsApp }/>
-                <p>(34) 3825-3003 <br /> entre em contato </p>
-            </div>
+  return (
+    <div className="infosHeader">
+      {res}
 
-            <div className="time">
-                <img src={ Local }/>
-                <p>Cristo redentor <br /> Patos De Minas </p>
-            </div>
-            
-        </div>
-    )
+      <div className="time">
+        <img src={Relogio} alt="Relógio" />
+        <p>07:00 à 00:00 <br /> {safada}</p>
+      </div>
+      <div className="time">
+        <a href="https://wa.me/553498162029?text=" target="_blank" rel="noopener noreferrer">
+          <img src={WhatsApp} alt="WhatsApp" />
+          <p>(34) 3825-3003 <br /> entre em contato </p>
+        </a>
+      </div>
+
+      <div className="time">
+        <a href="https://goo.gl/maps/JNzDiptJvMtnG31KA" target="_blank" rel="noopener noreferrer">
+          <img src={Local} alt="Local" />
+          <p>Cristo redentor <br /> Patos De Minas </p>
+        </a>
+      </div>
+    </div>
+  );
 }
 
-export default infosHeader;
+export default InfosHeader;
