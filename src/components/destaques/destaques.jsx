@@ -7,7 +7,7 @@ function ContainerBar() {
 
 
     useEffect(() => {
-        fetch('http://localhost:3000/static/Destaques.json').then((Response) => Response.json())
+        fetch('https://farmaciaotinho.vercel.app/static/Destaques.json').then((Response) => Response.json())
             .then(setData);
     }, [])
 
