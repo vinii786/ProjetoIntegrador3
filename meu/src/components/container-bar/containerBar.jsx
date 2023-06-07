@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './containerBar.css'
+import BuyButton from '../buyButton/buyButton'
 function ContainerBar() {
 
     const [data, setData] = useState([]);
@@ -25,6 +26,7 @@ function ContainerBar() {
                                 <img src={ image } alt="" />
                                 <h1>{ name }</h1>
                                 <p>{ price }</p>
+                                <BuyButton />
                             </div>
                         </div>
                     )
