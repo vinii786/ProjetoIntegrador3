@@ -8,7 +8,7 @@ function ContainerBar() {
 
 
     useEffect(() => {
-        fetch('https://projeto-integrador3.vercel.app/static/destaques.json').then((Response) => Response.json())
+        fetch('https://projeto-integrador3.vercel.app/static/Destaques.json').then((Response) => Response.json())
             .then(setData);
     }, [])
 
