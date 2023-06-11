@@ -19,9 +19,11 @@
     display: none;
 }
 
-.container .carousel .item{
+.container .carousel .item a{
   margin: 10px;
   width: 280px; 
+  text-decoration: none;
+  color: black;
 }
 .container .carousel .item .img img{
   width: 67px;

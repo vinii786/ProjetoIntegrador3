@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './containerBar.css'
 import BuyButton from '../buyButton/buyButton'
+import { Link } from "react-router-dom"
 function ContainerBar() {
 
     const [data, setData] = useState([]);
@@ -15,7 +16,9 @@ function ContainerBar() {
         <div className="containerBar">
             <div className="titles">
                 <h1>Destaques</h1>
+                <Link to={'/Destaques'}>
                 <p>Veja mais</p>
+                </Link>
             </div>
             <div className="teste">
                 {data.map((item) => {

@@ -1,5 +1,6 @@
 import './slider.css'
 import { useEffect, useState, useRef } from 'react'
+import { Link } from 'react-router-dom';
 
 function Slider() {
 
@@ -7,7 +8,7 @@ function Slider() {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/med.json').then((Response) => Response.json())
+    fetch('http://localhost:3000/static/med.js').then((Response) => Response.json())
       .then(setData);
   }, [])
 
@@ -18,15 +19,17 @@ function Slider() {
       </div>
       <div className="carousel" ref={carousel}>
         {data.map((item) => {
-          const { id, name, image } = item;
+          const { id, name, image, rota } = item;
           return (
             <div className="item" key={id}>
+              <a href={ rota }>
               <div className="img">
                 <img src={image} />
               </div>
               <div className='sub-title'>
                 <span>{name}</span>
               </div>
+              </a>
             </div>
           );
         })}
