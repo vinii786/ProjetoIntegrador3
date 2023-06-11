@@ -6,7 +6,7 @@ function Medicamentos(){
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:3000/static/Medicamentos_home.json').then((Response) => Response.json())
+        fetch('https://projeto-integrador3.vercel.app/static/Medicamentos_home.json').then((Response) => Response.json())
             .then(setData);
     }, [])
 
