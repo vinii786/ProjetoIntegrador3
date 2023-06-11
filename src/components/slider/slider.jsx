@@ -8,7 +8,7 @@ function Slider() {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/med.js').then((Response) => Response.json())
+    fetch('https://projeto-integrador3.vercel.app/static/med.js').then((Response) => Response.json())
       .then(setData);
   }, [])
 
