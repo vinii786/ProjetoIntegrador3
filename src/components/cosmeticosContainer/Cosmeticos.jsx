@@ -1,20 +1,22 @@
 import { useEffect, useState } from 'react'
-import { Link } from "react-router-dom"
+import '../destaquesContainer/containerBar.css'
 import BuyButton from '../buyButton/buyButton'
-function Medicamentos(){
+import { Link } from "react-router-dom"
+function ContainerBar() {
 
-    const [data, setData] = useState([])
+    const [data, setData] = useState([]);
+
 
     useEffect(() => {
-        fetch('https://projeto-integrador3.vercel.app/static/Medicamentos_home.json').then((Response) => Response.json())
+        fetch('http://localhost:3000/static/cosmeticos.json').then((Response) => Response.json())
             .then(setData);
     }, [])
 
-    return(
+    return (
         <div className="containerBar">
             <div className="titles">
-                <h1>Medicamentos</h1>
-                <Link to={'/medicamentos'}>
+                <h1>Cosmeticos</h1>
+                <Link to={'/cosmeticos'}>
                 <p>Veja mais</p>
                 </Link>
             </div>
@@ -24,7 +26,6 @@ function Medicamentos(){
                     return (
                         <div className="prod_cards">
                             <div className="prods">
-                                
                                 <img src={ image } alt="" />
                                 <h1>{ name }</h1>
                                 <p>{ price }</p>
@@ -35,7 +36,7 @@ function Medicamentos(){
                 })}
             </div>
         </div>
-    )
+        )
 }
 
-export default Medicamentos;
+export default ContainerBar;

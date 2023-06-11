@@ -1,7 +1,10 @@
+import Header from "../components/header/header"
+
 function Cosmeticos(){
     return(
         <div>
-            <h1>Cosmeticos</h1>
+            <Header />
+            
         </div>
     )
 }
