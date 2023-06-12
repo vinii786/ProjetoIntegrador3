@@ -13,7 +13,7 @@ function CartButton() {
     <Link to="/carrinho" className="cart_button">
       <FaShoppingCart color='#FFF' />
       <span className="cart-name">Meu carrinho </span>
-      <span className="cart-status">{produtos.length}</span>
+      <span className="cart-status">{produtos?.length}</span>
     </Link>
   );
 }
