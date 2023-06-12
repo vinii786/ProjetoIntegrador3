@@ -32,7 +32,9 @@ export function CarrinhoContextProvider({ children }) {
   useEffect(() => {
     const response = localStorage.getItem("@pi-vini")
 
-    setProdutos(JSON.parse(response))
+    const responseData = JSON.parse(response)
+
+    setProdutos(responseData ?? [])
   }, [])
 
   return (
