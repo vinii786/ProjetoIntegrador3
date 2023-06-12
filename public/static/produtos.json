@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Colflex bio colageno",
+    "image": "https://imageup.me/images/16dbf180-c14d-46d3-891a-dedb8cc8b125.png",
+    "price": "30R$",
+    "type": "destaque"
+  },
+  {
+    "name": "Colflex bio colageno",
+    "image": "https://imageup.me/images/16dbf180-c14d-46d3-891a-dedb8cc8b125.png",
+    "price": "30R$",
+    "type": "destaque"
+  },
+  {
+    "name": "Paracetamol",
+    "image": "https://drogariaemcasa.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/p/a/paracetamolgeolabdrogariaemcasa.png",
+    "price": "23R$",
+    "type": "destaque"
+  },
+  {
+    "name": "Dipirona",
+    "image": "https://uploads.consultaremedios.com.br/product_variation_images/full/87d13a49ff453b78b0938b1fcfc781836f06b996.png?1615486482",
+    "price": "20R$",
+    "type": "destaque"
+  },
+  {
+    "name": "Forteviron",
+    "price": "75,90R$",
+    "image": "https://santaluciadrogaria.vtexassets.com/arquivos/ids/158015/7896677700281.png?v=637638004021600000",
+    "type": "vitaminas"
+  },
+  {
+    "name": "Rarivit",
+    "price": "39,90R$",
+    "image": "https://marinofarma.com.br/wp-content/uploads/2020/07/AZ-1.png",
+    "type": "vitaminas"
+  },
+  {
+    "name": "Eximia",
+    "price": "149,90R$",
+    "image": "https://cdn.ultrafarma.com.br/static/bf2022/810079.png",
+    "type": "vitaminas"
+  },
+  {
+    "name": "Munhequeira Ajustável Needs",
+    "price": "19,90R$",
+    "image": "https://www.movaortopedicos.com.br/media/img/content/products/munhequeira-elastica-bege-embalagem-20200817132931.png",
+    "type": "ortopedia"
+  },
+  {
+    "name": "RarivitJoelheira com Reforço Needs Tamanho M",
+    "price": "35,90R$",
+    "image": "https://images.rappi.com.br/products/2089926728-1497570015.png?d=136x136&e=webp",
+    "type": "ortopedia"
+  },
+  {
+    "name": "Colar Cervical de Espuma Needs",
+    "price": "29,90R$",
+    "image": "https://cdn.discordapp.com/attachments/1117575484901965874/1117580162914070650/colar_cervical_p.png",
+    "type": "ortopedia"
+  },
+  {
+    "name": "Shampoo Pantene",
+    "price": "29,90R$",
+    "image": "https://ikesaki.vteximg.com.br/arquivos/ids/278840-1000-1000/Shampoo_Pantene_Colageno_Hidrata_-_Resgata_175ml_7500435196970-1-.png?v=637819297129530000",
+    "type": "cosmeticos"
+  },
+  {
+    "name": "Loção Hidratante Nivea",
+    "price": "27,90R$",
+    "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/75420/e0336687-bd32-4560-aaf0-fac2e1d79e51-75420-nivea-milk-hidratante-desodorante-200ml.png",
+    "type": "cosmeticos"
+  },
+  {
+    "name": "Neutrogena Sun Fresh Facial",
+    "price": "59,90R$",
+    "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/84945/84945.png",
+    "type": "cosmeticos"
+  },
+  {
+    "name": "Dorflex",
+    "image": "https://cdn.ultrafarma.com.br/static/bf2022/807587.png",
+    "price": "10R$",
+    "type": "medicamentos"
+  },
+  {
+    "name": "Neosaldina",
+    "image": "https://static-webv8.jet.com.br/drogaosuper/produto/multifotos/hd/5806082020104558.png",
+    "price": "39,90R$",
+    "type": "medicamentos"
+  },
+  {
+    "name": "Engov",
+    "image": "https://static-webv8.jet.com.br/drogaosuper/produto/multifotos/hd/52863-EngovAfter_Citrus7636661.png",
+    "price": "15,90R$",
+    "type": "medicamentos"
+  }
+]

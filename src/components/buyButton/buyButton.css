@@ -1,6 +1,8 @@
 .buyButton{
     padding-bottom: 10px;
     padding-top: 10px;
+    position: relative;
+    z-index: 1000;
 }
 .btn {
     height: 40px;

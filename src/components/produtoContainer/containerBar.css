@@ -52,6 +52,9 @@
     background-color: white;
     padding-top: 3rem;
     gap: 30px;
+
+    text-decoration: none;
+    color: #000000;
     
 }
 .prod_cards h1{

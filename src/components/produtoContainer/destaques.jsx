@@ -1,20 +1,14 @@
-import { useEffect, useState } from 'react'
-import { Link } from "react-router-dom"
+import './containerBar.css'
 import BuyButton from '../buyButton/buyButton'
-function Medicamentos(){
+import { Link } from "react-router-dom"
+function ContainerBar(props) {
+    const data = props.data || []
 
-    const [data, setData] = useState([])
-
-    useEffect(() => {
-        fetch('http://localhost:3000/static/ortopedia.json').then((Response) => Response.json())
-            .then(setData);
-    }, [])
-
-    return(
+    return (
         <div className="containerBar">
             <div className="titles">
-                <h1>Ortopedia</h1>
-                <Link to={'/ortopedia'}>
+                <h1>{props.title}</h1>
+                <Link to={'/Destaques'}>
                 <p>Veja mais</p>
                 </Link>
             </div>
@@ -22,20 +16,20 @@ function Medicamentos(){
                 {data.map((item) => {
                     const { name, image, price } = item;
                     return (
-                        <div className="prod_cards">
+                        <div  className="prod_cards">
                             <div className="prods">
-                                
                                 <img src={ image } alt="" />
                                 <h1>{ name }</h1>
                                 <p>{ price }</p>
-                                <BuyButton />
+                                <BuyButton produto={item} />
+                                <Link to={`/produto?name=${name}`} >Veja mais</Link>
                             </div>
                         </div>
                     )
                 })}
             </div>
         </div>
-    )
+        )
 }
 
-export default Medicamentos;
+export default ContainerBar;

@@ -1,15 +1,20 @@
 import { useState } from 'react';
 import { GoSearch } from 'react-icons/go';
 import '../searchBar/searchBar.css';
-
+import { useNavigate } from "react-router-dom"
 
 
 function SearchBar() {
+    const navigate = useNavigate();
+    const [searchValue, setSearchValue] = useState('');
 
-const [searchValue, setSearchValue] = useState('');
+    function handleFind(event) {
+        event.preventDefault();
+        navigate(`/produto?name=${searchValue}`)
+    }
 
     return ( 
-    <form className="search-bar">
+    <form className="search-bar" onSubmit={handleFind} >
         <input 
         type="search" 
         value={searchValue}
