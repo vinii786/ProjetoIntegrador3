@@ -2,4 +2,35 @@
     text-align: center;
     padding-top: 130px;
 }
+.container_{
+    background-color: white;
+    border-radius: 9px;
+    max-width: max-content;
+    gap: 24px;
+}
 
+.content_img img{ 
+    height: 100px;
+}
+
+.content_{
+    display: flex;
+    padding: 50px;
+}
+
+.content_text{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    width: 40rem;
+}
+
+.content_button button{
+    border: none;
+    padding: 9px;
+    border-radius: 9px;
+}
+.content_button:hover button{
+    cursor: pointer;
+    opacity: 0.6;
+}
