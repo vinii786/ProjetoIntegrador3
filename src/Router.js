@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router";
 import App from "./App";
 import Descontos from "./pages/Descontos";
-import { Carrinho } from "./pages/Carrinho";
+import { Carrinho } from "./pages/Carrinho/index";
 import { Produto } from "./pages/Produto";
-import { Categoria } from "./pages/Categoria";
+import { Categoria } from "./pages/Categoria";  
 
 export function Router() {
   return (
