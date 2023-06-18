@@ -21,7 +21,7 @@ export function Carrinho() {
     
     mensagem += `\n Total: ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(total)}`
 
-    window.open(`https:/api.whatsapp.com/send/?phone=553498162029&text=${mensagem}`)
+    window.open(`https:/api.whatsapp.com/send/?phone=553498162029&text=${mensagem}`, '_target')
   }
 
   return (
