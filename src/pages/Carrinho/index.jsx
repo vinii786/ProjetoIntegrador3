@@ -21,7 +21,7 @@ export function Carrinho() {
     
     mensagem += `\n Total: ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(total)}`
 
-    window.open(`https://wa.me/553498162029&text=${mensagem}`, '_target')
+    window.open(`https://wa.me/553498162029?text=${mensagem}`, '_target')
   }
 
   return (
