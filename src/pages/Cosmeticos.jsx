@@ -3,8 +3,8 @@ import Header from "../components/header/header"
 function Cosmeticos(){
     return(
         <div>
-            <Header />
             
+            <h1>dkald</h1>
         </div>
     )
 }

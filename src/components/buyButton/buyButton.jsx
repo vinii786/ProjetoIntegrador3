@@ -11,6 +11,5 @@ function buyButton(props){
             <button className='btn' onClick={() => addProduto(props.produto)} >Adicionar ao carrinho</button>
         </div>
     )
-
 }
 export default buyButton;

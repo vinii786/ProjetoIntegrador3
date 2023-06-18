@@ -16,13 +16,14 @@ function ContainerBar(props) {
                 {data.map((item) => {
                     const { name, image, price } = item;
                     return (
-                        <div  className="prod_cards">
+                        <div className="prod_cards">
                             <div className="prods">
+                            <Link to={`/produto?name=${name}`} className='links' >
                                 <img src={ image } alt="" />
                                 <h1>{ name }</h1>
                                 <p>{ price }</p>
+                            </Link>
                                 <BuyButton produto={item} />
-                                <Link to={`/produto?name=${name}`} >Veja mais</Link>
                             </div>
                         </div>
                     )

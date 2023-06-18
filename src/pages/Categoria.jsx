@@ -24,8 +24,7 @@ export function Categoria() {
 
   return (
     <div>
-      <Header />
-      <h1>{location.pathname}</h1>
+      
     </div>
   );
 }

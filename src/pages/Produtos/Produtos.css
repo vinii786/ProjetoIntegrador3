@@ -1,0 +1,29 @@
+
+.kk{
+    padding-top: 130px;
+}
+.containerBar_{
+    background-color: white;
+    max-width: 900px;
+    max-height: 900px;
+    padding: 50px;
+    border-radius: 1rem;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20rem;
+}
+.img_{
+    width: 200px;
+}
+.img_ img{
+    width: 100%;
+    padding-top: 50px;
+}
+.infosRemedio p{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 250px;
+}
+.container_prod_infos{
+    padding-top: 40px;
+}

@@ -11,7 +11,7 @@ function App() {
   const [data, setData] = useState([]);
     //http://localhost:3000/static/produtos.json https://projeto-integrador3.vercel.app/static/produtos.json
     useEffect(() => {
-      fetch('https://projeto-integrador3.vercel.app/static/produtos.json').then((Response) => Response.json())
+      fetch('http://localhost:3000/static/produtos.json').then((Response) => Response.json())
           .then((response) => {
             const data = {
               destaque: [],
