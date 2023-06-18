@@ -11,7 +11,7 @@ export function Produto() {
   const search = searchParams.get("name")
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/produtos.json').then((Response) => Response.json())
+    fetch('https://projeto-integrador3.vercel.app/static/produtos.json').then((Response) => Response.json())
       .then((response) => {
 
         let responseData = null
