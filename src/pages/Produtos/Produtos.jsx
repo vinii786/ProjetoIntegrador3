@@ -47,7 +47,7 @@ export function Produto() {
             <p>{data.price}</p>
             <div className="infosRemedio">
               <p>{data.infos}</p>
-              <Buybutton />
+              <Buybutton produto={data} />
             </div>
           </div>
         </div>

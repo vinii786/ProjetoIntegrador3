@@ -8,7 +8,9 @@ function buyButton(props){
 
     return(
         <div className='buyButton'>
-            <button className='btn' onClick={() => addProduto(props.produto)} >Adicionar ao carrinho</button>
+            <button className='btn' onClick={() => {
+                addProduto(props.produto)
+            }} >Adicionar ao carrinho</button>
         </div>
     )
 }
