@@ -7,6 +7,23 @@ import Lixeira from '../Carrinho/imgs/lixeira.png'
 export function Carrinho() {
   const { produtos, removeProduto } = useCarrinho()
 
+  const total = produtos.reduce((acc, produto) => {
+    return acc + parseInt(produto.price.split("R$")[1])
+  }, 0)
+
+  function handleFinalizarCompra() {
+    let mensagem = "Olá, gostaria de fazer o pedido: "
+    let total = 0
+    produtos.forEach(produto => {
+      mensagem += ` \n - ${produto.name} - ${produto.price}`
+      total += parseInt(produto.price.split("R$")[1])
+    })
+    
+    mensagem += `\n Total: ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(total)}`
+
+    window.open(`https:/api.whatsapp.com/send/?phone=553498162029&text=${mensagem}`)
+  }
+
   return (
     <div>
       <Header />
@@ -28,6 +45,8 @@ export function Carrinho() {
             </div>
           </div>
       ))}
+      <p>Total: {Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(total)}</p>
+      <button onClick={handleFinalizarCompra} >Finalizar compra</button>
       </div>
     </div>  
   )
