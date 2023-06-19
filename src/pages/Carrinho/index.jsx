@@ -12,14 +12,14 @@ export function Carrinho() {
   }, 0)
 
   function handleFinalizarCompra() {
-    let mensagem = "Olá, gostaria de fazer o pedido: "
+    let mensagem = `Olá, gostaria de fazer o pedido:%0A`
     let total = 0
     produtos.forEach(produto => {
-      mensagem += ` \n - ${produto.name} - ${produto.price}`
+      mensagem += `\n ${produto.name}: ${produto.price},%0A`
       total += parseInt(produto.price.split("R$")[1])
     })
     
-    mensagem += `\n Total: ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(total)}`
+    mensagem += `\n %0ATotal: ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(total)}`
 
     window.open(`https://wa.me/553498162029?text=${mensagem}`, '_target')
   }
