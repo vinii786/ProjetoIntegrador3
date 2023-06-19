@@ -14,17 +14,18 @@ export function Categoria() {
           response.forEach(produto => {
             if(location.pathname.trim().toLowerCase().includes(produto.type.trim().toLowerCase())) {
               dataResponse.push(produto)
-            }          
+            }
           });
           
           console.log(dataResponse)
           setData(dataResponse)
         });
   }, [])
-
   return (
     <div>
-      
+        {data.map((produto) => (
+          <p>{produto.name}</p>
+        ))}
     </div>
   );
 }
