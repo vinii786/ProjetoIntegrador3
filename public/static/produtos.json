@@ -81,7 +81,14 @@
     "price": "R$200,00",
     "infos":"essa é boa pra mete",
     "image": "https://www.useprudence.com.br/wp-content/uploads/2016/08/extra-grande.png",
-    "type": "cosmeticos"
+    "type": ""
+  },
+  {
+    "name": "viagra",
+    "price": "R$700,00",
+    "infos":"esse o trem fica duro por pelo menos 78horas",
+    "image": "https://farmaciaportuguesa24.com/wp-content/uploads/viagra-generic.png",
+    "type": ""
   },
   {
     "name": "Neutrogena Sun Fresh Facial",
@@ -110,5 +117,12 @@
     "price": "R$15,90",
     "infos":"O Engov é indicado para o alívio dos sintomas de dores de cabeça e alergias.",
     "type": "medicamentos"
+  },
+  {
+    "name": "bengay",
+    "price": "R$1000,00",
+    "infos":"Bengay: o melhor para o tratamento de dores musculares e artrite Quando há algo errado com nosso corpo, ele envia mensagens ao cérebro como alerta de que as coisas não andam bem. Por esse motivo, sentimos dores que podem ser leves ou mais agudas, nos impedindo de seguir nossa rotina normalmente. Alguns dos exemplos mais clássicos de incômodos são: Dor nas costas: Uma das queixas mais comuns da população, é muito provável que todas as pessoas tenham, pelo menos uma vez na vida, episódios de dores nas costas. As causas podem ser muito variadas, como por exemplo, má postura, sedentarismo, carga muito alta de exercícios, etc., podendo envolver desde os músculos até a coluna vertebral. Além disso, a extensão do que chamamos de dor nas costas é enorme, já que ela pode ser sentida mais próxima da cervical ou da lombar. Artrite: É a inflamação em uma ou mais articulações ou juntas. As causas para esse problema são várias, como o desgaste geral das articulações, algum trauma, alguma infecção por bactéria ou vírus, entre outros. A artrite pode trazer como consequência a lesão da cartilagem, dos ossos e dos ligamentos. Para que isso não ocorra, é muito importante o tratamento correto e rápido desse problema, ao menor sinal de dor nas articulações. Contusão: Mesmo nas pessoas mais ativas, as dores podem aparecer. É o caso das contusões, que são muito recorrentes em atletas profissionais ou praticantes de esportes amadores. Essa dor é produzida por um objeto que atinge o corpo sem cortar a pele e, se não tratada a tempo, pode haver complicações. Ela é caracterizada principalmente por deixar a área atingida roxa e/ou inchada, e a dor pode ser ou não incapacitante. Entorse: Esse é um tipo de lesão que afeta os ligamentos de uma articulação. O mais comum deles é a entorse de tornozelo ou a torção no pé, que podem ser mais leves ou mais graves dependendo do grau da lesão. As entorses estão relacionadas a algum movimento brusco - geralmente uma torção - que lesiona os ligamentos. Apesar de ser muito mais recorrente em atletas de alta performance, uma pessoa que não pratica esportes também pode ser acometida por essa lesão, que causa dores, inchaço e instabilidade do membro afetado. Para entorses leves, uma pomada para contusão já pode resolver o problema. Conheça a pomada Bengay Dores profundas podem prejudicar e muito a rotina, interferindo seriamente no seu dia a dia. Para que você não deixe de fazer as coisas de que mais gosta ou precisa, Bengay é uma pomada para dor nas costas, para o alívio da dor muscular e para alguns casos de artrite, contusões e entorses.Quem deseja saber como aliviar a dor muscular ou como ter a parada imediata das dores provocadas pela artrite, certamente está curioso para saber como essa pomada age, é muito simples: ao aplicá-la na região afetada, ela penetra com um calor profundo até a fonte da dor para proporcionar o alívio que você precisa. Assim, você volta a ter o controle do seu dia, podendo retomar a prática de esportes, dos treinos ou dos movimentos mais simples sem incômodos.Para comprar Bengay com segurança e conforto, a Vitaminas Brasil é referência nos melhores produtos e oferece essa pomada importada para dor muscular diretamente dos EUA. Não deixe de ter essa poderosa pomada, que será útil para você e toda a sua família",
+    "image": "https://www.pharmaciamericana.com.br/wp-content/uploads/bengay-pain-relieving-cream.png",
+    "type": ""
   }
 ]
