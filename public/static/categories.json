@@ -12,12 +12,6 @@
     "rota":"/Cosmeticos"
   },
   {
-    "id": "94313732",
-    "name": "Descontos",
-    "image": "https://i.postimg.cc/LswZbds1/desconto.png",
-    "rota":"/descontos"
-  },
-  {
     "id": "94313733",
     "name": "Vitaminas",
     "image": "https://i.postimg.cc/6Q28RHh5/nutricao.png",

@@ -3,7 +3,7 @@ import App from "./App";
 import Descontos from "./pages/Descontos";
 import { Carrinho } from "./pages/Carrinho/index";
 import { Produto } from "./pages/Produtos/Produtos";
-import { Categoria } from "./pages/Categoria";  
+import { Categoria } from "./pages/Categorias/Categoria";  
 
 export function Router() {
   return (
