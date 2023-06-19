@@ -8,7 +8,7 @@ function Slider() {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('https://projeto-integrador3.vercel.app/static/produtos.json').then((Response) => Response.json())
+    fetch('https://projeto-integrador3.vercel.app/static/categories.json').then((Response) => Response.json())
       .then(setData);
   }, [])
 
