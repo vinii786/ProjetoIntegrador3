@@ -8,7 +8,7 @@ function buyButton(props){
 
     return(
         <div className='buyButton'>
-            <button className='btn' onClick={() => {
+            <button className={ `btn ${ props.colorButton? 'colorButton':"" }` } onClick={() => {
                 addProduto(props.produto)
             }} >Adicionar ao carrinho</button>
         </div>

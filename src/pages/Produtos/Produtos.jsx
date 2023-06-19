@@ -47,7 +47,11 @@ export function Produto() {
             <p>{data.price}</p>
             <div className="infosRemedio">
               <p>{data.infos}</p>
-              <Buybutton produto={data} />
+              <Buybutton
+              colorButton
+              produto={data} 
+                
+              />
             </div>
           </div>
         </div>

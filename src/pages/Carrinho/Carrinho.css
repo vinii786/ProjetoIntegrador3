@@ -1,6 +1,7 @@
 .tittle_{
     text-align: center;
     padding-top: 130px;
+    padding-bottom: 30px;
 }
 .container_{
     background-color: white;
@@ -33,4 +34,25 @@
 .content_button:hover button{
     cursor: pointer;
     opacity: 0.6;
+}
+
+.btn_Finalizar_Compra{
+    border-style: none;
+    padding: 30px;
+    border-radius: 6px;
+    margin: 30px;
+}
+.btn_Finalizar_Compra:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.btn_Finalizar_Compra img{
+    height: 20px;
+    padding-right: 20px;
+}
+.btnBuy{
+    padding-left: 15px;
+}
+.totalPrice{
+    padding-left: 50px;
 }
