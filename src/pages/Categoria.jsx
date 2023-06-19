@@ -9,23 +9,25 @@ export function Categoria() {
 
   useEffect(() => {
     fetch('https://projeto-integrador3.vercel.app/static/produtos.json').then((Response) => Response.json())
-        .then((response) => {
-          const dataResponse = []
-          response.forEach(produto => {
-            if(location.pathname.trim().toLowerCase().includes(produto.type.trim().toLowerCase())) {
-              dataResponse.push(produto)
-            }
-          });
-          
-          console.log(dataResponse)
-          setData(dataResponse)
+      .then((response) => {
+        const dataResponse = []
+        response.forEach(produto => {
+          if (location.pathname.trim().toLowerCase().includes(produto.type.trim().toLowerCase())) {
+            dataResponse.push(produto)
+          }
         });
+
+        console.log(dataResponse)
+        setData(dataResponse)
+      });
   }, [])
   return (
     <div>
-        {data.map((produto) => (
-          <p>{produto.name}</p>
-        ))}
+      {data.map((produto) => (
+        <div>
+          <img src={produto.image} alt="" />
+        </div>
+      ))}
     </div>
   );
 }
