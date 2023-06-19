@@ -9,7 +9,7 @@ export function Carrinho() {
   const { produtos, removeProduto } = useCarrinho()
 
   const total = produtos.reduce((acc, produto) => {
-    return acc + parseInt(produto.price.split("R$")[1])
+    return acc + parseFloat(produto.price.split("R$")[1])
   }, 0)
 
   function handleFinalizarCompra() {
@@ -17,7 +17,7 @@ export function Carrinho() {
     let total = 0
     produtos.forEach(produto => {
       mensagem += `\n ${produto.name}: ${produto.price},%0A`
-      total += parseInt(produto.price.split("R$")[1])
+      total += parseFloat(produto.price.split("R$")[1])
     })
 
     mensagem += `\n %0ATotal: ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(total)}`
