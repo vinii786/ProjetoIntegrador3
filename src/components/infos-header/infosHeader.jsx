@@ -9,7 +9,7 @@ function InfosHeader() {
   var Hora = data.getHours()
   var res = <div className="time"></div>;
 
-  if (Hora > 0 && Hora <= 7) {
+  if (Hora > 0) {
     var time = 'fechado agora'
     res = (
       <div className="time" style={{ color: 'red' }}>
