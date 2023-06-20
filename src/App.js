@@ -54,9 +54,9 @@ function App() {
       <InfosHeader />
       <Slider />
 
-      <ContainerBar data={data.destaque?.slice(0, 3)} title="Destaque" />
+      <ContainerBar data={data.destaque?.slice(0, 3)} title="Destaques" />
       <ContainerBar data={data.vitaminas?.slice(0, 3)} title="Vitaminas" />
-      <ContainerBar data={data.cosmeticos?.slice(0, 3)} title="Cosméticos" />
+      <ContainerBar data={data.cosmeticos?.slice(0, 3)} title="Cosmeticos" />
       <ContainerBar data={data.medicamentos?.slice(0, 3)} title="Medicamentos"  />
       <ContainerBar data={data.ortopedia?.slice(0, 3)} title="Ortopedia" />
     </div>

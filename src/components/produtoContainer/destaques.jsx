@@ -8,7 +8,7 @@ function ContainerBar(props) {
         <div className="containerBar">
             <div className="titles">
                 <h1>{props.title}</h1>
-                <Link to={'/Destaques'}>
+                <Link to={`/${props.title}`}>
                 <p>Veja mais</p>
                 </Link>
             </div>
