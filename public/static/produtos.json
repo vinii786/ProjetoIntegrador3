@@ -3,105 +3,189 @@
     "name": "Colflex bio colageno",
     "image": "https://imageup.me/images/16dbf180-c14d-46d3-891a-dedb8cc8b125.png",
     "price": "R$30.00",
-    "infos":"Colflex Bio possui colágeno tipo II não desnaturado em cápsulas. O colágeno tipo II não desnaturado auxilia na manutenção da função articular.",
+    "infos": "Colflex Bio possui colágeno tipo II não desnaturado em cápsulas. O colágeno tipo II não desnaturado auxilia na manutenção da função articular.",
     "type": "destaque"
   },
   {
     "name": "Paracetamol",
     "image": "https://drogariaemcasa.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/p/a/paracetamolgeolabdrogariaemcasa.png",
     "price": "R$23.00",
-    "infos":"O Paracetamol é indicado em adultos para a redução da febre e para o alívio temporário de dores leves a moderadas, tais como: dores associadas a resfriados comuns, dor de cabeça, dor no corpo, dor de dente, dor nas costas, dores musculares, dores leves associadas a artrites e cólicas menstruais. ",
+    "infos": "O Paracetamol é indicado em adultos para a redução da febre e para o alívio temporário de dores leves a moderadas, tais como: dores associadas a resfriados comuns, dor de cabeça, dor no corpo, dor de dente, dor nas costas, dores musculares, dores leves associadas a artrites e cólicas menstruais. ",
     "type": "destaque"
   },
   {
     "name": "Dipirona",
     "image": "https://uploads.consultaremedios.com.br/product_variation_images/full/87d13a49ff453b78b0938b1fcfc781836f06b996.png?1615486482",
     "price": "R$20.00",
-    "infos":"Este medicamento é indicado como analgésico (para dor) e antitérmico (para febre).",
+    "infos": "Este medicamento é indicado como analgésico (para dor) e antitérmico (para febre).",
     "type": "destaque"
   },
   {
     "name": "Forteviron",
     "price": "R$75.90",
-    "infos":"Forteviron é um medicamento de ação progressiva que auxilia e estimula o organismo a combater a fraqueza física e mental, ativando o desempenho sexual de homens e mulheres. Também é indicado como auxiliar para homens e mulheres com intensa atividade física e intelectual.",
+    "infos": "Forteviron é um medicamento de ação progressiva que auxilia e estimula o organismo a combater a fraqueza física e mental, ativando o desempenho sexual de homens e mulheres. Também é indicado como auxiliar para homens e mulheres com intensa atividade física e intelectual.",
     "image": "https://santaluciadrogaria.vtexassets.com/arquivos/ids/158015/7896677700281.png?v=637638004021600000",
     "type": "vitaminas"
   },
   {
     "name": "Rarivit",
     "price": "R$39.90",
-    "infos":"O Laboratório Globo apresenta a nova fórmula do Rarivit. Este é um suplemento alimentar à base de diversas vitaminas fundamentais para o bom funcionamento do organismo e, consequentemente, para uma boa qualidade de vida. As vitaminas presentes nele são as B1, B2, B3, B5, B6, A e C. Este suplemento é de uso adulto e oral, colorido artificialmente e possui 40 comprimidos revestidos.",
+    "infos": "O Laboratório Globo apresenta a nova fórmula do Rarivit. Este é um suplemento alimentar à base de diversas vitaminas fundamentais para o bom funcionamento do organismo e, consequentemente, para uma boa qualidade de vida. As vitaminas presentes nele são as B1, B2, B3, B5, B6, A e C. Este suplemento é de uso adulto e oral, colorido artificialmente e possui 40 comprimidos revestidos.",
     "image": "https://marinofarma.com.br/wp-content/uploads/2020/07/AZ-1.png",
     "type": "vitaminas"
   },
   {
     "name": "Eximia",
     "price": "R$149.90",
-    "infos":"Descrição: O Exímia Fortalize Kera D é um suplemento vitamínico composto por 11 vitaminas, que auxiliam no crescimento, fortalecimento e manutenção das unhas e dos cabelos, deixando-os mais resistentes.",
+    "infos": "Descrição: O Exímia Fortalize Kera D é um suplemento vitamínico composto por 11 vitaminas, que auxiliam no crescimento, fortalecimento e manutenção das unhas e dos cabelos, deixando-os mais resistentes.",
     "image": "https://cdn.ultrafarma.com.br/static/bf2022/810079.png",
+    "type": "vitaminas"
+  },
+  {
+    "name": "Vitamina Lavitan A-Z Mulher",
+    "price": "R$20.90",
+    "infos": "Suplemento alimentar em comprimidos revestidos. Rico em ferro e ácido fólico. Lavitan A-Z Mais Mulher contém em sua formulação 10 Vitaminas e 3 Minerais, voltado para suplementar a alimentação da Mulher. A vitamina C auxilia no metabolismo energético e na formação do colágeno. O manganês é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres. Como usar Ingerir um comprimido ao dia. Uso oral. Uso adulto. Não contém quantidades significativa de valor energético, proteínas, gorduras totais, gorduras saturadas, gorduras trans, fibra alimentar e sódio. *% Valores Diários com base em uma dieta de 2.000 kcal ou 8.400 kJ. Seus valores diários podem ser maiores ou menores dependendo de suas necessidades energéticas",
+    "image": "https://www.cristaldrogaria.com.br/produtos/6317122021083312.png",
+    "type": "vitaminas"
+  },
+  {
+    "name": "Omega 3",
+    "price": "R$49.90",
+    "infos": "ÔMEGA-3 1000mg 120 Cápsulas O Ômega 3 é essencial à saúde humana, visto que auxilia na manutenção de níveis saudáveis de triglicerídeos. Mas como não é produzido pelo organismo, precisa ser ingerido por meio da alimentação e da suplementação. INGREDIENTES Óleo de peixe com ácidos graxos poliinsaturadosEPA 540mg e DHA 360mg por porção (3 cápsulas). SUGESTÃO DE USO Tomar 2 a 3 cápsulas ao dia, de preferência com as refeições. CONSERVAÇÃO Manter o produto bem fechado em local fresco, seco e ao abrigo da luz solar. Após aberto mantenha a embalagem bem fechada. RENDIMENTO Entre 45 e 60 porções. NÃO CONTÉM GLÚTEN NÃO CONTÉM LACTOSE",
+    "image": "https://nutrigenes.com.br/wp-content/uploads/2022/06/OMEGA-3-SALMAO.png",
     "type": "vitaminas"
   },
   {
     "name": "Munhequeira Ajustável Needs",
     "price": "R$19.90",
-    "infos":"Descrição: Ideal para auxiliar na prevenção e recuperação de lesões médias, a Munhequeira Needs oferece compressão na região do punho, promovendo sensação de estabilidade da articulação",
+    "infos": "Descrição: Ideal para auxiliar na prevenção e recuperação de lesões médias, a Munhequeira Needs oferece compressão na região do punho, promovendo sensação de estabilidade da articulação",
     "image": "https://www.movaortopedicos.com.br/media/img/content/products/munhequeira-elastica-bege-embalagem-20200817132931.png",
     "type": "ortopedia"
   },
   {
     "name": "Rarivit Joelheira",
     "price": "R$35.90",
-    "infos":"Joelheira com Reforço Needs Tamanho M é indicada para prevenir e tratar entorses e contusões no joelho que podem ocorrer durante atividades físicas ou prática de exercícios. A Joelheira Patelar com Reforço protege a patela em caso de instabilidade e diminui a pressão sob a região.",
+    "infos": "Joelheira com Reforço Needs Tamanho M é indicada para prevenir e tratar entorses e contusões no joelho que podem ocorrer durante atividades físicas ou prática de exercícios. A Joelheira Patelar com Reforço protege a patela em caso de instabilidade e diminui a pressão sob a região.",
     "image": "https://images.rappi.com.br/products/2089926728-1497570015.png?d=136x136&e=webp",
     "type": "ortopedia"
   },
   {
     "name": "Colar Cervical de Espuma Needs",
     "price": "R$29.90",
-    "infos":"O Colar Cervical de Espuma Needs Tamanho P é indicado para cuidados especiais em traumatismos, torcicolos, artrites, estabilização da coluna durante o sono, artrose e outras afecções da coluna cervical.",
+    "infos": "O Colar Cervical de Espuma Needs Tamanho P é indicado para cuidados especiais em traumatismos, torcicolos, artrites, estabilização da coluna durante o sono, artrose e outras afecções da coluna cervical.",
     "image": "https://cdn.discordapp.com/attachments/1117575484901965874/1117580162914070650/colar_cervical_p.png",
     "type": "ortopedia"
   },
   {
     "name": "Shampoo Pantene",
     "price": "R$29.90",
-    "infos":"Shampoo Pantene Restauração foi desenvolvido especialmente para restaurar os cabelos, deixando fortes e com uma sensação de limpeza prolongada. Sua fórmula aminoácidos, óleo de argan e a exclusiva Pro-Vitamina da Pantene, auxiliam na reposição de lipídios nutrindo o fios desde a raiz, conferindo cabelos longos e fortes até as pontas.",
+    "infos": "Shampoo Pantene Restauração foi desenvolvido especialmente para restaurar os cabelos, deixando fortes e com uma sensação de limpeza prolongada. Sua fórmula aminoácidos, óleo de argan e a exclusiva Pro-Vitamina da Pantene, auxiliam na reposição de lipídios nutrindo o fios desde a raiz, conferindo cabelos longos e fortes até as pontas.",
     "image": "https://ikesaki.vteximg.com.br/arquivos/ids/278840-1000-1000/Shampoo_Pantene_Colageno_Hidrata_-_Resgata_175ml_7500435196970-1-.png?v=637819297129530000",
     "type": "cosmeticos"
   },
   {
     "name": "Loção Hidratante Nivea",
     "price": "R$27.90",
-    "infos":"Loção Hidratante Nivea Milk Hidratação Intensiva 200ml",
+    "infos": "Loção Hidratante Nivea Milk Hidratação Intensiva 200ml",
     "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/75420/e0336687-bd32-4560-aaf0-fac2e1d79e51-75420-nivea-milk-hidratante-desodorante-200ml.png",
     "type": "cosmeticos"
   },
   {
     "name": "Neutrogena Sun Fresh Facial",
     "price": "R$59.90",
-    "infos":"Protetor Solar Facial NEUTROGENA SUN FRESH® FPS 70, 40g possui textura ultraleve e hidratante que não derrete e oferece alta proteção contra os raios UVA, UVB e ajuda a proteger contra a luz visível com sua exclusiva tecnologia HELIOPLEX® XP. Com ativos ricos em propriedades hidratantes que deixam a pele macia, aveludada e preenchida e complexo antioxidante rejuvenescedor formado por Niacinamida, ativo clareador de sinais causados pelo sol, Feverfew e Vitamina C, poderosos antioxidantes. Melhora a firmeza e elasticidade da pele e possui textura não oleosa. Dermatologicamente testado e adequado para peles sensíveis.",
+    "infos": "Protetor Solar Facial NEUTROGENA SUN FRESH® FPS 70, 40g possui textura ultraleve e hidratante que não derrete e oferece alta proteção contra os raios UVA, UVB e ajuda a proteger contra a luz visível com sua exclusiva tecnologia HELIOPLEX® XP. Com ativos ricos em propriedades hidratantes que deixam a pele macia, aveludada e preenchida e complexo antioxidante rejuvenescedor formado por Niacinamida, ativo clareador de sinais causados pelo sol, Feverfew e Vitamina C, poderosos antioxidantes. Melhora a firmeza e elasticidade da pele e possui textura não oleosa. Dermatologicamente testado e adequado para peles sensíveis.",
     "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/84945/84945.png",
+    "type": "cosmeticos"
+  },
+  {
+    "name": "Condicionador Pantene",
+    "price": "R$29.90",
+    "infos": "O Condicionador Pantene Hidratação é ideal para cabelos danificados. Sua fórmula conta com tecnologia Pro-V que contém nutrientes e Pro-Vitaminas que repara danos severos e devolve a saúde e o brilho aos cabelos. Além de restaurar os pontos frágeis de cada fibra do cabelo e auxiliar a diminuir a perda de proteínas, reparando as cutículas prevenindo as pontas duplas.",
+    "image": "https://images.ctfassets.net/bwmjeuu0n1om/70ata9D6CKwqu0THvq0vG4/a5f264745ff1c378db6619d7de0069eb/Condicionador-Hidratacao.png?fm=webp&w=750&q=75",
+    "type": "cosmeticos"
+  },
+  {
+    "name": "Desodorante Nivea Men Aerossol Invisible",
+    "price": "R$19.90",
+    "infos": "O Desodorante Nivea Men Aerossol Invisible for Black & White é o 1º antitranspirante antimanchas combinado com uma poderosa fórmula antibacteriana que elimina 99,99% das bactérias. Protege suas roupas do preto ao branco. 48 horas de proteção eficaz e você livre de manchas, suor e do mau odor.",
+    "image": "https://giassi.vtexassets.com/arquivos/ids/624545/Antitranspirante-Aerossol-Nivea-Men-Invisible-for-Black---White-150ml.png?v=638186559553300000",
+    "type": "cosmeticos"
+  },
+  {
+    "name": "Desodorante Nivea Aerossol Tom Natural Feminino",
+    "price": "R$19.90",
+    "infos": "O Desodorante Nivea Aerossol Tom Natural Feminino foi desenvolvido para proporcionar até 48h de proteção antitranspirante contra o suor e o mau odor. Sua fórmula 3 em 1 (protege, previne e clareia as axilas) sem álcool etílico, corantes e conservantes combate pontos escurecidos causados por depilação.",
+    "image": "https://us-southeast-1.linodeobjects.com/storage/comercial-big-oferta/media/uploads/produto/nivea_des_aero_150ml_tom_natural_80ecb18d-7995-4ce5-9d1d-074de46a51df.png",
+    "type": "cosmeticos"
+  },
+  {
+    "name": "Protetor Labial Nivea",
+    "price": "R$24.90",
+    "infos": "Descrição: Hidratante labial que oferece cuidado e proteção. Item indispensável para manter os lábios sempre macios a qualquer hora do dia.",
+    "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/75444/bb4c14d8-b941-4883-9e05-64401a3cda31-nivea-original-care-hidratante-labial-48g.png",
     "type": "cosmeticos"
   },
   {
     "name": "Dorflex",
     "image": "https://cdn.ultrafarma.com.br/static/bf2022/807587.png",
     "price": "R$10.00",
-    "infos":"Dorflex é indicado no alívio da dor associada a contraturas musculares, incluindo dor de cabeça tensional.",
+    "infos": "Dorflex é indicado no alívio da dor associada a contraturas musculares, incluindo dor de cabeça tensional.",
     "type": "medicamentos"
   },
   {
     "name": "Neosaldina",
     "image": "https://static-webv8.jet.com.br/drogaosuper/produto/multifotos/hd/5806082020104558.png",
     "price": "R$39.90",
-    "infos":"A Neosaldina é um medicamento com atividade analgésica (diminui a dor) e antiespasmódica (diminui contração involuntária) indicado para o tratamento de diversos tipos de dor de cabeça, incluindo enxaquecas ou para o tratamento de cólicas.",
+    "infos": "A Neosaldina é um medicamento com atividade analgésica (diminui a dor) e antiespasmódica (diminui contração involuntária) indicado para o tratamento de diversos tipos de dor de cabeça, incluindo enxaquecas ou para o tratamento de cólicas.",
     "type": "medicamentos"
   },
   {
     "name": "Engov",
     "image": "https://static-webv8.jet.com.br/drogaosuper/produto/multifotos/hd/52863-EngovAfter_Citrus7636661.png",
     "price": "R$15.90",
-    "infos":"O Engov é indicado para o alívio dos sintomas de dores de cabeça e alergias.",
+    "infos": "O Engov é indicado para o alívio dos sintomas de dores de cabeça e alergias.",
+    "type": "medicamentos"
+  },
+  {
+    "name": "Naridrin",
+    "image": "https://images.tcdn.com.br/img/img_prod/745294/naridrin_h_30mg_ml_spray_com_60ml_ems_9045_1_0e81ecea3b48ba997fe96c0b659f4f29.jpg",
+    "price": "R$25.90",
+    "infos": "O Naridrim é indicado para descongestionar o nariz e diluir a secreção nasal e no tratamento auxiliar das rinites que acompanham gripes e resfriados.",
+    "type": "medicamentos"
+  },
+  {
+    "name": "Nimesulida",
+    "image": "https://farmafy.com.br/uploads/product/1/DNHLyOcE5LOGNLy8R4p43RXkCj3-CA11.png",
+    "price": "R$15.90",
+    "infos": "Este medicamento é destinado ao tratamento de uma variedade de condições que requeiram atividade anti-inflamatória (contra a inflamação), analgésica (contra a dor) e antipirética (contra a febre).",
+    "type": "medicamentos"
+  },
+  {
+    "name": "Doril",
+    "image": "https://www.doril.com.br/images/doril-enxaqueca-caixa.png",
+    "price": "R$15.90",
+    "infos": " O Doril Enxaqueca é uma combinação de ácido acetilsalicílico, paracetamol e cafeína. O paracetamol é um analgésico e antipirético (contra dor e febre), o ácido acetilsalicílico é analgésico e anti-inflamatório. A cafeína potencializa o efeito analgésico.",
+    "type": "medicamentos"
+  },
+  {
+    "name": "Lisador",
+    "image": "https://guiadafarmacia.com.br/consulta-medicamentos/wp-content/uploads/2021/07/7897322706320.png",
+    "price": "R$29.90",
+    "infos": "Lisador é indicado para o tratamento de manifestações dolorosas em geral; como antipirético (estados febris); nas dores em geral como cólicas do trato gastrintestinal, cólicas nos rins e fígado; dores de cabeça, dores musculares, articulares e pós-operatórias.",
+    "type": "medicamentos"
+  },
+  {
+    "name": "Tylenol",
+    "image": "https://www.tylenol.com/sites/tylenol_us/files/product-images/microsoftteams-image_1.png",
+    "price": "R$49.90",
+    "infos": "Este medicamento é indicado em adultos para a redução da febre e para o alívio temporário de dores leves a moderadas, tais como: dores associadas a resfriados comuns, dor de cabeça, dor no corpo, dor de dente, dor nas costas, dores musculares, dores leves associadas a artrites e cólicas menstruais.",
+    "type": "medicamentos"
+  },
+  {
+    "name": "Tamarine",
+    "image": "https://s3-sa-east-1.amazonaws.com/static.standout.com.br/hypera/products/img_jYf6669N36uFkjwR.png",
+    "price": "R$60.00",
+    "infos": "TAMARINE® cápsula é indicado para o tratamento sintomático de intestino preso, das constipações primárias e secundárias e na preparação para exames radiológicos e endoscópicos.",
     "type": "medicamentos"
   }
 ]
