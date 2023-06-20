@@ -43,7 +43,7 @@ function InfosHeader() {
         <p>07:00 à 00:00 <br />  {time}</p>
       </div>
       <div className="time">
-        <a href="https://wa.me/553498162029?text=" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/5534999568736?text=" target="_blank" rel="noopener noreferrer">
           <img src={WhatsApp} alt="WhatsApp" />
           <p>(34) 3825-3003 <br /> entre em contato </p>
         </a>
